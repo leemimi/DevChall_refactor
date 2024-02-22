@@ -169,6 +169,9 @@ gradle-app.setting
 
 ### Custom ###
 application-secret.yml
+application.yml
+application-dev.yml
+application-test.yml
 .gradle
 build/
 .idea

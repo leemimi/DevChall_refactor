@@ -1,5 +1,5 @@
 server:
-  port: 8083
+  port:
 spring:
   mvc:
     hiddenmethod:
@@ -12,6 +12,11 @@ spring:
     exclude:
       - org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration
       - org.springframework.boot.autoconfigure.session.SessionAutoConfiguration
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://127.0.0.1:3306/{DB 이름}?useUnicode=true&allowPublicKeyRetrieval=true&useSSL=false&characterEncoding=utf8&autoReconnect=true&serverTimezone=Asia/Seoul
+    username: root
+    password:
   security:
     oauth2:
       client:
@@ -63,10 +68,10 @@ cloud:
     region:
       static: ap-northeast-2
     s3:
-      endpoint: https://kr.object.ncloudstorage.com
-      bucket: devchall
+      endpoint:
+      bucket:
   cdn:
-    url: http://iztyfajjvmsf17707682.cdn.ntruss.com/
+    url:
 custom:
   challenge:
     weeklyPoint: 50
