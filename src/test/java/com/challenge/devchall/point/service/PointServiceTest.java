@@ -1,18 +1,19 @@
 package com.challenge.devchall.point.service;
 
 
-import com.challenge.devchall.base.Util.TestUtil;
-import com.challenge.devchall.challange.entity.Challenge;
-import com.challenge.devchall.challange.service.ChallengeService;
-import com.challenge.devchall.challengeMember.entity.ChallengeMember;
-import com.challenge.devchall.challengeMember.role.Role;
-import com.challenge.devchall.challengeMember.service.ChallengeMemberService;
-import com.challenge.devchall.challengepost.entity.ChallengePost;
-import com.challenge.devchall.challengepost.service.ChallengePostService;
-import com.challenge.devchall.member.entity.Member;
-import com.challenge.devchall.member.service.MemberService;
-import com.challenge.devchall.point.entity.Point;
-import com.challenge.devchall.point.repository.PointRepository;
+import com.challenge.devchall.domain.point.service.PointService;
+import com.challenge.devchall.global.base.Util.TestUtil;
+import com.challenge.devchall.domain.challange.entity.Challenge;
+import com.challenge.devchall.domain.challange.service.ChallengeService;
+import com.challenge.devchall.domain.challengeMember.entity.ChallengeMember;
+import com.challenge.devchall.domain.challengeMember.role.Role;
+import com.challenge.devchall.domain.challengeMember.service.ChallengeMemberService;
+import com.challenge.devchall.domain.challengepost.entity.ChallengePost;
+import com.challenge.devchall.domain.challengepost.service.ChallengePostService;
+import com.challenge.devchall.domain.member.entity.Member;
+import com.challenge.devchall.domain.member.service.MemberService;
+import com.challenge.devchall.domain.point.entity.Point;
+import com.challenge.devchall.domain.point.repository.PointRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;

@@ -1,14 +1,15 @@
 package com.challenge.devchall.challange.service;
 
-import com.challenge.devchall.base.rsData.RsData;
-import com.challenge.devchall.challange.entity.Challenge;
-import com.challenge.devchall.challange.repository.ChallengeRepository;
-import com.challenge.devchall.challengeMember.role.Role;
-import com.challenge.devchall.challengeMember.service.ChallengeMemberService;
-import com.challenge.devchall.challengepost.service.ChallengePostService;
-import com.challenge.devchall.member.entity.Member;
-import com.challenge.devchall.member.service.MemberService;
-import com.challenge.devchall.photo.service.PhotoService;
+import com.challenge.devchall.domain.challange.service.ChallengeService;
+import com.challenge.devchall.global.base.rsData.RsData;
+import com.challenge.devchall.domain.challange.entity.Challenge;
+import com.challenge.devchall.domain.challange.repository.ChallengeRepository;
+import com.challenge.devchall.domain.challengeMember.role.Role;
+import com.challenge.devchall.domain.challengeMember.service.ChallengeMemberService;
+import com.challenge.devchall.domain.challengepost.service.ChallengePostService;
+import com.challenge.devchall.domain.member.entity.Member;
+import com.challenge.devchall.domain.member.service.MemberService;
+import com.challenge.devchall.global.photo.service.PhotoService;
 import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;

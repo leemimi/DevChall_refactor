@@ -1,5 +1,6 @@
 package com.challenge.devchall.challange.controller;
 
+import com.challenge.devchall.domain.challange.controller.ChallengeController;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;

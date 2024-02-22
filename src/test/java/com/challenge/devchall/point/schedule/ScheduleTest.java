@@ -1,6 +1,6 @@
 package com.challenge.devchall.point.schedule;
 
-import com.challenge.devchall.point.service.PointService;
+import com.challenge.devchall.domain.point.service.PointService;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.TestMethodOrder;
 import org.springframework.beans.factory.annotation.Autowired;
